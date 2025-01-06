@@ -1,0 +1,85 @@
+.navbar {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between navbar content */
+    align-items: center; /* Center items vertically */
+}
+
+.toggle-buttons {
+    display: inline-block; /* Group buttons together inline */
+    border: 2px solid #ccc; /* Gray outline */
+    background-color: #fff; /* White background */
+    border-radius: 15px; /* Rounded corners for the encompassing border */
+    margin-top: 40px; /* Adds 40px of padding to the bottom of the content */
+}
+
+button {
+    padding: 10px 15px;
+    font-weight: bold;
+    border: none; /* Remove individual button borders */
+    background-color: transparent; /* Buttons blend with the container */
+    cursor: pointer;
+    width: auto; /* Allow width to adjust automatically */
+}
+
+button:first-child {
+    width: 90px; /* Set a fixed width for the "Work" button to stretch it */
+}
+
+button + button {
+    margin-left: 20px; /* Adds space only between the buttons */
+}
+
+button.active {
+    background-color: #00334d; /* Darker blue with a hint of teal for the active button */
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px; /* Rounded corners for the button */
+}
+
+button:hover {
+    background-color: #e0e0e0; /* Light gray on hover */
+    background-color: #00334d; /* Darker blue with a hint of teal for the active button */
+    color: #fff;
+    border-radius: 15px;
+    font-weight: bold; /* Rounded corners for the encompassing border */
+}
+
+/* Styling for the social links container */
+.social-links {
+    margin-left: auto; /* Pushes the social links to the right side */
+    padding-right: 75px; /* Adds space between the social links and the body */
+    margin-top: 40px; /* Adds 40px of padding to the bottom of the content */
+    display: flex; /* Ensures links are in a row */
+    align-items: center; /* Vertically center the items */
+
+}
+
+/* Styling for social link images (icons) */
+.social-links img {
+    width: 18px; /* Adjust the icon size */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10px; /* Space between the text and icon */
+    vertical-align: middle; /* Vertically aligns the icon with the text */
+}
+
+/* Styling for individual social links (anchor tags) */
+.social-links a {
+    margin-left: 10px; /* Space between individual social links */
+    color: #000; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* add margin between linkedin icon and github text */
+.social-links a+a{ 
+    margin-left: 32px;  
+}
+
+/* Hover effect for social links */
+.social-links a:hover {
+    color: #007bff; /* Highlight color on hover */
+}
+
+/* Adding spacing between multiple links */
+a + a {
+    margin-left: 40px;
+}

@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  isWorkActive:boolean = true // Default to "Work" view
+  
+  // Toggles between "Work" and "About Me"
+  toggleView(view: 'work' | 'about'){
+    this.isWorkActive = (view === "work")
+  }
+  
+
 
 }
