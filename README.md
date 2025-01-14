@@ -1,6 +1,4 @@
-# Welcome!
-
-### Hi there! [Click here]() to check out my personal portfolio!
+# This project is in progress!
 
 ## Project Structure
 
