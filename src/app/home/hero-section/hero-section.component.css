@@ -17,7 +17,17 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 10px;
+    font-weight: normal;
 
+}
+
+/* Hero Sun Image */
+.hero-heading > img {
+    width: 55px;
+    margin-left: -30px;
+    position: relative;
+    top: -1px; 
+    transform: rotate(20deg)
 }
 
 /* Hero Description (Short Bio) */
