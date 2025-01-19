@@ -1,11 +1,11 @@
-/* Navbar container for overall alignment */
+/* Navbar container */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* Styling for the button container */
+/* Toggle Buttons Section */
 .toggle-buttons {
     display: inline-block;
     border: 2px solid #ccc;
@@ -15,7 +15,7 @@
     margin-left: 71px;
 }
 
-/* General styling for buttons */
+/* Button Styles */
 button {
     padding: 10px 15px;
     font-weight: bold;
@@ -25,17 +25,14 @@ button {
     width: auto;
 }
 
-/* Specific width for the first button */
 button:first-child {
     width: 90px;
 }
 
-/* Adds space between consecutive buttons */
 button + button {
     margin-left: 10px;
 }
 
-/* Styling for the active button state */
 button.active {
     background-color: #00334d;
     color: #fff;
@@ -43,7 +40,6 @@ button.active {
     border-radius: 15px;
 }
 
-/* Hover effect for buttons */
 button:hover {
     background-color: #00334d;
     color: #fff;
@@ -51,7 +47,7 @@ button:hover {
     font-weight: bold;
 }
 
-/* Styling for the social links container */
+/* Social Links Section */
 .social-links {
     margin-left: auto;
     padding-right: 71px;
@@ -60,7 +56,6 @@ button:hover {
     align-items: center;
 }
 
-/* Styling for social link icons (images) */
 .social-links img {
     width: 18px;
     height: auto;
@@ -68,24 +63,21 @@ button:hover {
     vertical-align: middle;
 }
 
-/* Styling for individual social links (anchor tags) */
 .social-links a {
     margin-left: 10px;
     color: #000;
     text-decoration: none;
 }
 
-/* Adds additional margin between LinkedIn icon and GitHub text */
 .social-links a + a {
     margin-left: 32px;
 }
 
-/* Hover effect for social links */
 .social-links a:hover {
     color: #007bff;
 }
 
-/* Responsive Design for Smaller Screens */
+/* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -103,21 +95,16 @@ button:hover {
         width: fit-content;
     }
 
-    .social-links {
-        padding-right: 0;
-        margin-top: 20px;
-        justify-content: flex-start;
-        width: 100%;
-    }
-    .social-links a {
-        margin-left: 0;
-        margin-right: 20px;
-    }
     button {
         text-align: center;
     }
 
     button + button {
         padding-top: 10px;
+    }
+
+    .social-links,
+    .social-links a {
+        display: none;
     }
 }

@@ -4,7 +4,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px 71px;
-
 }
 
 /* Hero Content (Text) */
@@ -18,7 +17,6 @@
     font-weight: bold;
     margin-bottom: 10px;
     font-weight: normal;
-
 }
 
 /* Hero Sun Image */
@@ -26,8 +24,8 @@
     width: 55px;
     margin-left: -30px;
     position: relative;
-    top: -1px; 
-    transform: rotate(20deg)
+    top: -1px;
+    transform: rotate(20deg);
 }
 
 /* Hero Description (Short Bio) */
@@ -44,20 +42,52 @@
     padding-right: 71px;
 }
 
+.hero-social-links {
+    display: none;
+}
+
+.hero-social-links img {
+    width: 18px;
+    height: auto;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* Styling for individual social links (anchor tags) */
+.hero-social-links a {
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
 /* Responsive Design for Smaller Screens */
 @media (max-width: 768px) {
     .hero-section {
         flex-direction: column;
         text-align: center;
-        display:inline;
-
+        display: inline;
     }
+
     .hero-image img {
         padding-right: 0;
         margin-top: 20px;
     }
 
     .hero-content {
-        display:inline;
+        display: inline;
+    }
+
+    .hero-social-links {
+        padding-right: 0;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+    }
+
+    .hero-social-links a {
+        margin: 0 10px;
+        margin-top: 20px;
     }
 }
