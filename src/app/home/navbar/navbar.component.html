@@ -1,21 +1,16 @@
 <div class="navbar">
-    <div class="toggle-buttons">
-      <button 
-        [class.active]="isWorkActive" 
-        (click)="toggleView('work')">Work</button>
-      <button 
-        [class.active]="!isWorkActive" 
-        (click)="toggleView('about')">About Me</button>
-    </div>
-    <div class="social-links">
-        <a href="https://linkedin.com" target="_blank">
-            LinkedIn
-            <img src="assets/images/linkedin-icon.png" alt="LinkedIn Icon">
-        </a>
-        <a href="https://github.com" target="_blank">
-            GitHub
-            <img src="assets/images/github-icon.png" alt="GitHub Icon">
-        </a>
-    </div>
+  <div class="toggle-buttons">
+    <button [class.active]="isWorkActive" (click)="toggleView('work')">Work</button>
+    <button [class.active]="!isWorkActive" (click)="toggleView('about')">About Me</button>
   </div>
-  
+  <div class="social-links">
+    <a href="https://linkedin.com" target="_blank">
+      LinkedIn
+      <img src="assets/images/linkedin-icon.png" alt="LinkedIn Icon">
+    </a>
+    <a href="https://github.com" target="_blank">
+      GitHub
+      <img src="assets/images/github-icon.png" alt="GitHub Icon">
+    </a>
+  </div>
+</div>
