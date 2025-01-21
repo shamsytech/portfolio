@@ -1,30 +1,30 @@
-/* Navbar and Hero Section */
+/* ==========================================================================
+   Hero Container & Section
+   ========================================================================== */
 .hero-container {
     background: linear-gradient(315deg, #f6be4f1a 0%, #3885ac1a 100%);
 }
 
-/* Hero Section Container */
 .hero-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 71px;
-
 }
 
-/* Hero Content (Text) */
+/* ==========================================================================
+   Hero Content
+   ========================================================================== */
 .hero-content {
     max-width: 60%;
 }
 
-/* Hero Heading (Name) */
 .hero-heading {
     font-size: 32px;
     font-weight: 900;
     padding: 0;
 }
 
-/* Hero Sun Image */
 .hero-heading > img {
     width: 55px;
     margin-left: -35px;
@@ -33,7 +33,6 @@
     transform: rotate(13deg);
 }
 
-/* Hero Description (Short Bio) */
 .hero-description {
     font-size: 20px;
     line-height: 27px;
@@ -41,7 +40,9 @@
     font-weight: 500;
 }
 
-/* Hero Image */
+/* ==========================================================================
+   Hero Image & Social Links
+   ========================================================================== */
 .hero-image img {
     max-width: 300px;
     height: auto;
@@ -59,14 +60,15 @@
     vertical-align: middle;
 }
 
-/* Styling for individual social links (anchor tags) */
 .hero-social-links a {
     margin-left: 10px;
     color: #000;
     text-decoration: none;
 }
 
-/* Responsive Design for Smaller Screens */
+/* ==========================================================================
+   Media Queries - Mobile Responsiveness
+   ========================================================================== */
 @media (max-width: 768px) {
     .hero-section {
         flex-direction: column;
@@ -74,7 +76,7 @@
         display: block;
         width: 100%;
         padding: 0px 15px;
-
+        padding-bottom: 30px;
     }
 
     .hero-heading{
