@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, #f6be4f1a 10%, #3885ac1a 90%);
 }
 
 /* Styling for the button container */
@@ -31,7 +30,7 @@ button:first-child {
     width: 90px;
 }
 
-/* Adds space between consecutive buttons */
+/* Adds space between the toggle buttons */
 button + button {
     margin-left: 10px;
 }
@@ -118,4 +117,4 @@ button:hover {
     .social-links a {
         display: none;
     }
-}
+} 
