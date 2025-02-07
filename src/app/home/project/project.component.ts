@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { projectMocks } from './mocks/project-mocks';
 
 @Component({
   selector: 'app-project',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./project.component.css']
 })
 export class ProjectComponent {
-
+  projects = projectMocks
 }
