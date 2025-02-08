@@ -1,0 +1,14 @@
+<div class="projects-container">
+    <div class="project-card" *ngFor="let project of projects">
+      <h3>{{ project.title }}</h3>
+      <img [src]="project.image" [alt]="project.title + ' project image'">
+      <p>{{ project.description }}</p>
+      <div class="badges">
+        <span class="badge" *ngFor="let badge of project.badges">{{ badge }}</span>
+      </div>
+      <div class="buttons">
+        <a [href]="project.demoButton" target="_blank" class="demo-btn">Live Demo</a>
+        <a [href]="project.githubButton" target="_blank" class="github-btn">View Code</a>
+      </div>
+    </div>
+  </div>
