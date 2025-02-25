@@ -25,6 +25,7 @@
     padding: 0;
 }
 
+/* sun icon */
 .hero-heading > img {
     width: 55px;
     margin-left: -35px;
@@ -47,6 +48,11 @@
     max-width: 300px;
     height: auto;
     padding-right: 71px;
+}
+
+img {
+    border-radius: 3%;
+    width: 290px;
 }
 
 .hero-social-links {
