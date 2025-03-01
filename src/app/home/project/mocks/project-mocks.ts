@@ -22,7 +22,7 @@ export const projectMocks = [
         demoButton: "https://curious-souls.vercel.app",
         githubButton: "https://github.com/shams-hasan/blog",
         image: "",
-        badges: ["Astro", "HTML", "CSS", "Markdown", "Vercel"]
+        badges: ["Astro", "JavaScript", "HTML", "CSS", "Markdown", "Vercel"]
     }
         ]
     
