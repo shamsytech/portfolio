@@ -2,11 +2,11 @@
 export const projectMocks = [
     {
         title: "Housing101",
-        description: "A responsive housing app featuring dynamic showcases, search, and signup. Automated pass/fail badges for Karma/Jasmine tests using GitHub Actions YAML scripts.",
+        description: "A responsive housing app with dynamic showcases and search/signup functionality.",
         demoButton: "https://housing-dusky.vercel.app/",
         githubButton: "https://github.com/shamoosa1/housing-project",
         image: "assets/images/housing-project-img.png",
-        badges: ["Angular", "TypeScript","Karma", "Jasmine", "GitHub Actions", "YAML"]
+        badges: ["Angular", "TypeScript", "Karma", "Jasmine", "GitHub Actions", "YAML"]
     },
     {
         title: "Milky Way Wonders",
@@ -24,5 +24,5 @@ export const projectMocks = [
         image: "",
         badges: ["Astro", "JavaScript", "HTML", "CSS", "Markdown", "Vercel"]
     }
-        ]
-    
+]
+

@@ -56,7 +56,7 @@ button:hover {
    ========================================================================== */
 .social-links {
     margin-left: auto;
-    padding-right: 71px;
+    padding-right: 142px;
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -115,4 +115,4 @@ button:hover {
     .social-links a {
         display: none;
     }
-} 
+}

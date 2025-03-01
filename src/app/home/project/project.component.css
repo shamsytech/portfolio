@@ -1,7 +1,47 @@
-img {
-    width: 871px;
+/* Project image(s) */
+.project-card img {
+    width: 850px;
     height: 560px;
     border-radius: none;
-    display:block;
+    display: block;
     margin: auto;
+}
+.project-buttons > img {
+    width: 36px;
+    height: 36px;
+}
+/* Margin on the bottom of each project */
+div {
+    margin-bottom: 22px;
+}
+
+/* Project title, description, and skill badges */
+h3,
+p,
+.badges {
+    text-align: left;
+    margin-left: 71px;
+}
+
+/* Each project container */
+.project-card {
+    padding-top: 40px;
+}
+
+/* Project GitHub and Demo buttons */
+.project-buttons {
+    position: absolute;
+    right: 0px;
+    padding-right: 142px;
+    margin-top: 40px;
+    display: flex;
+    gap: 8px;
+    top: 555px;
+    color: white;
+    font-size: 16px;
+}
+
+.project-buttons > a {
+    /* background-color: #002A43; */
+    border-radius: 14px;
 }

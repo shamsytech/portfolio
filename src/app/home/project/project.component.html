@@ -1,14 +1,26 @@
 <div class="projects-container">
-    <div class="project-card" *ngFor="let project of projects">
-      <h3>{{ project.title }}</h3>
-      <img [src]="project.image" [alt]="project.title + ' project image'">
-      <p>{{ project.description }}</p>
-      <div class="badges">
-        <span class="badge" *ngFor="let badge of project.badges">{{ badge }}</span>
-      </div>
-      <div class="buttons">
-        <a [href]="project.demoButton" target="_blank" class="demo-btn">Live Demo</a>
-        <a [href]="project.githubButton" target="_blank" class="github-btn">View Code</a>
-      </div>
+  <div class="project-card" *ngFor="let project of projects">
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.description }}</p>
+    <div class="badges">
+      <span class="project-badges" *ngFor="let badge of project.badges">{{ badge }}</span>
     </div>
+    <div class="project-buttons">
+      <a [href]="project.demoButton" target="_blank" class="demo-btn">View Demo</a> <img src="/* Arrow--up-right */
+
+        width: 16px;
+        height: 16px;
+        
+        background: rgba(255, 255, 255, 1e-05);
+        background-blend-mode: multiply;
+        
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        " width="16" height="16">
+      <a [href]="project.githubButton" target="_blank" class="github-btn">View Code</a>
+    </div>
+    <img [src]="project.image" [alt]="project.title + ' project image'">
   </div>
+</div>
