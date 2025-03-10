@@ -23,6 +23,13 @@ p,
     margin-left: 71px;
 }
 
+.project-badges + span {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    gap: 8px;
+    padding-left: 8px;
+}
+
 /* Each project container */
 .project-card {
     padding-top: 40px;
