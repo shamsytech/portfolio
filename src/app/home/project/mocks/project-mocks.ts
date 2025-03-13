@@ -6,11 +6,11 @@ export const projectMocks = [
         demoButton: "https://housing-dusky.vercel.app/",
         githubButton: "https://github.com/shamoosa1/housing-project",
         image: "assets/images/housing-project-img.png",
-        badges: ["Angular", "TypeScript", "Karma", "Jasmine", "GitHub Actions", "YAML"]
+        badges: ["Angular", "TypeScript", "HTML", "SCSS", "Karma", "Jasmine", "CI/CD"]
     },
     {
         title: "Milky Way Wonders",
-        description: "An interactive space-themed web app featuring NASA's daily captures since 1995.",
+        description: "An interactive space-themed web app, featuring NASA's daily captures since 1995.",
         demoButton: "https://shamoosa1.github.io/nasa-project/",
         githubButton: "https://github.com/shamoosa1/nasa-project",
         image: "assets/images/nasa-project-img.png",
