@@ -1,5 +1,5 @@
 /* Project image(s) */
-.project-card img {
+.project-card .project-images {
     width: 850px;
     height: 560px;
     border-radius: none;
@@ -9,6 +9,32 @@
 .project-buttons > img {
     width: 36px;
     height: 36px;
+}
+.arrow-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    vertical-align: middle;
+    color: white;
+}
+
+.demo-btn {
+    background-color: #002a43;
+    border-radius: 14px;
+    padding: 12px 16px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.demo-btn:hover {
+    opacity: 0.9;
+}
+
+.github-btn {
+    padding-right: 71px;
+    padding-top: 12px;
+    padding-left: 8px;
 }
 /* Margin on the bottom of each project */
 div {
@@ -39,7 +65,6 @@ p,
 .project-buttons {
     position: absolute;
     right: 0px;
-    padding-right: 142px;
     margin-top: 40px;
     display: flex;
     gap: 8px;
@@ -48,7 +73,24 @@ p,
     font-size: 16px;
 }
 
+.project-buttons a + a {
+    margin-right: 20px;
+}
+
 .project-buttons > a {
     /* background-color: #002A43; */
     border-radius: 14px;
+}
+
+@media (max-width: 768px) {
+    .project-buttons {
+        position: absolute;
+        right: 0px;
+        margin-top: 40px;
+        display: flex;
+        gap: 8px;
+        top: 808px;
+        color: white;
+        font-size: 16px;
+    }
 }

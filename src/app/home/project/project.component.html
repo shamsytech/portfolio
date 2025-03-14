@@ -6,21 +6,12 @@
       <span class="project-badges" *ngFor="let badge of project.badges">{{ badge }}</span>
     </div>
     <div class="project-buttons">
-      <a [href]="project.demoButton" target="_blank" class="demo-btn">View Demo</a> <img src="/* Arrow--up-right */
-
-        width: 16px;
-        height: 16px;
-        
-        background: rgba(255, 255, 255, 1e-05);
-        background-blend-mode: multiply;
-        
-        /* Inside auto layout */
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-        " width="16" height="16">
-      <a [href]="project.githubButton" target="_blank" class="github-btn">View Code</a>
+      <a [href]="project.demoButton" class="demo-btn" target="_blank">
+        View Demo
+        <img src="assets/images/Arrow--up-right.png" alt="arrow" class="arrow-icon">
+      </a>
+      <a [href]="project.githubButton" class="github-btn" target="_blank">View Code</a>
     </div>
-    <img [src]="project.image" [alt]="project.title + ' project image'">
+    <img class="project-images" [src]="project.image" [alt]="project.title + ' project image'">
   </div>
 </div>

@@ -7,5 +7,5 @@ import { projectMocks } from './mocks/project-mocks';
   styleUrls: ['./project.component.css']
 })
 export class ProjectComponent {
-  projects = projectMocks
+  projects = projectMocks;
 }
