@@ -45,13 +45,14 @@
    Hero Image & Social Links
    ========================================================================== */
 .hero-image img {
-    max-width: 300px;
+    max-width: 350px;
     height: auto;
-    padding-right: 71px;
+    padding-top: 32px;
+    padding-right: 21px;
 }
 
 img {
-    border-radius:51%;
+    border-radius: 51%;
 }
 
 .hero-social-links {
@@ -84,7 +85,7 @@ img {
         padding-bottom: 30px;
     }
 
-    .hero-heading{
+    .hero-heading {
         padding-right: 10px;
     }
     .hero-image {
@@ -111,7 +112,7 @@ img {
     }
 
     .hero-description {
-        padding-right:35px;
+        padding-right: 35px;
         padding-left: 5px;
     }
 }
