@@ -44,11 +44,11 @@
 /* ==========================================================================
    Hero Image & Social Links
    ========================================================================== */
-.hero-image img {
-    max-width: 350px;
+.hero-image > img {
+    max-width: 375px;
     height: auto;
     padding-top: 32px;
-    padding-right: 21px;
+    margin-left: 100px;
 }
 
 img {
@@ -67,13 +67,14 @@ img {
 }
 
 .hero-social-links a {
-    margin-left: 10px;
-    color: #000;
-    text-decoration: none;
+    text-decoration: none; 
+    color: inherit;
+    display: inline-flex;
+    align-items: center; 
+    gap: 8px; 
 }
 
-/* ==========================================================================
-   Media Queries - Mobile Responsiveness
+/* =======================˝Responsiveness
    ========================================================================== */
 @media (max-width: 768px) {
     .hero-section {
@@ -88,9 +89,12 @@ img {
     .hero-heading {
         padding-right: 10px;
     }
-    .hero-image {
+
+    .hero-image img {
         margin-left: 71px;
         margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 30px;
     }
 
     .hero-content {
@@ -107,8 +111,14 @@ img {
     }
 
     .hero-social-links a {
-        margin: 0 22px;
+        padding: 0 49px;
         margin-top: 20px;
+        padding-left: 0px;
+    }
+
+    .hero-social-links a:hover {
+        color: #0077b5;
+        text-decoration: underline;
     }
 
     .hero-description {
