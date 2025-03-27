@@ -3,27 +3,25 @@
     <div class="hero-section">
         <div class="hero-content">
             <h1 class="hero-heading">
-                Shams Hasan
-                <img src="assets/images/sun.jpg" alt="sun">
+                {{heroData.heading}}
+                <img [src]="heroData.headingIcon" alt="sun icon">
             </h1>
             <p class="hero-description">
-                Skilled software engineer living for the thrill of bringing ideas to life ✨.
+                {{heroData.description}}
             </p>
         </div>
 
         <div class="hero-social-links">
-            <a href="https://linkedin.com" target="_blank">
-                LinkedIn
-                <img src="assets/images/linkedin-icon.png" alt="LinkedIn Icon">
-            </a>
-            <a href="https://github.com" target="_blank">
-                GitHub
-                <img src="assets/images/github-icon.png" alt="GitHub Icon">
-            </a>
+            <div *ngFor="let social of heroData.socials">
+                <a [href]="social.links" target="_blank">
+                    <span>{{ social.name }}</span>
+                    <img [src]="social.icons" alt="icon">
+                </a>
+            </div>
         </div>
 
         <div class="hero-image">
-            <img src="assets/images/IMG_7490-edited.jpg" alt="profile picture">
+            <img [src]="heroData.image" alt="profile picture">
         </div>
     </div>
 </div>

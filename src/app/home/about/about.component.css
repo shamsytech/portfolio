@@ -1,0 +1,26 @@
+.about-container {
+    padding-bottom: 120px;
+}
+.about-section {
+    display: flex;
+}
+
+.about-content {
+    padding-left: 71px;
+    margin-right: 300px;
+}˝
+
+.about-description {
+    line-height: 1.6;
+    white-space: pre-line;
+}
+
+.about-image {
+    flex: 0 0 450px !important;
+    min-width: 381px !important;
+    max-width: 550px !important;
+    width: 550px !important;
+    height: 310px;
+    border-radius: 14px;
+    margin-right: 71px;
+}

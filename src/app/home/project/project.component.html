@@ -1,5 +1,5 @@
 <div class="projects-container">
-  <div class="project-card" *ngFor="let project of projects">
+  <div class="project-card" *ngFor="let project of projectData.projects">
     <h3>{{ project.title }}</h3>
     <p>{{ project.description }}</p>
     <div class="badges">
@@ -10,7 +10,9 @@
         View Demo
         <img src="assets/images/Arrow--up-right.png" alt="arrow" class="arrow-icon">
       </a>
-      <a [href]="project.githubButton" class="github-btn" target="_blank">View Code</a>
+      <a [href]="project.githubButton" class="github-btn" target="_blank">View Code
+        <img src = "assets/images/github-icon.png" alt = "github">
+      </a>
     </div>
     <img class="project-images" [src]="project.image" [alt]="project.title + ' project image'">
   </div>

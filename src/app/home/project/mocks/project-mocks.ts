@@ -1,18 +1,18 @@
 // projects
-export const projectMocks = [
-    {
+export const portfolioProjectMocks = {
+    projects: [{
         title: "Housing101",
         description: "A responsive housing app with dynamic showcases and search/signup functionality.",
         demoButton: "https://housing-dusky.vercel.app/",
-        githubButton: "https://github.com/shamoosa1/housing-project",
+        githubButton: "https://github.com/shams-hasan/housing-project",
         image: "assets/images/housing-project-img.png",
         badges: ["Angular", "TypeScript", "HTML", "SCSS", "Karma", "Jasmine", "CI/CD"]
     },
     {
         title: "Milky Way Wonders",
         description: "An interactive space-themed web app, featuring NASA's daily captures since 1995.",
-        demoButton: "https://shamoosa1.github.io/nasa-project/",
-        githubButton: "https://github.com/shamoosa1/nasa-project",
+        demoButton: "https://shams-hasan.github.io/nasa-project/",
+        githubButton: "https://github.com/shams-hasan/nasa-project",
         image: "assets/images/nasa-project-img.png",
         badges: ["HTML", "CSS", "JavaScript"]
     },
@@ -25,4 +25,5 @@ export const projectMocks = [
         badges: ["Astro", "JavaScript", "HTML", "CSS", "Markdown", "Vercel"]
     }
 ]
+}
 

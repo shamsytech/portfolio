@@ -4,12 +4,13 @@
     height: 560px;
     border-radius: none;
     display: block;
-    margin: auto;
+    border-radius: 14px;
+    margin: 90px auto auto auto;
 }
-.project-buttons > img {
-    width: 36px;
-    height: 36px;
+.project-card {
+    padding-top: 40px;
 }
+
 .arrow-icon {
     width: 16px;
     height: 16px;
@@ -35,13 +36,20 @@
     padding-right: 71px;
     padding-top: 12px;
     padding-left: 8px;
+    color: #002a43;
+    vertical-align: middle;
 }
-/* Margin on the bottom of each project */
+
+.github-btn > img {
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+    margin-bottom: -2px;
+}
 div {
     margin-bottom: 22px;
 }
 
-/* Project title, description, and skill badges */
 h3,
 p,
 .badges {
@@ -56,30 +64,24 @@ p,
     padding-left: 8px;
 }
 
-/* Each project container */
-.project-card {
-    padding-top: 40px;
-}
-
 /* Project GitHub and Demo buttons */
 .project-buttons {
-    position: absolute;
-    right: 0px;
     margin-top: 40px;
     display: flex;
     gap: 8px;
-    top: 555px;
     color: white;
     font-size: 16px;
+    justify-content: flex-end;
+    margin-top: -110px;
+}
+
+.project-buttons a {
+    float: right;
+    border-radius: 14px;
 }
 
 .project-buttons a + a {
     margin-right: 20px;
-}
-
-.project-buttons > a {
-    /* background-color: #002A43; */
-    border-radius: 14px;
 }
 
 @media (max-width: 768px) {

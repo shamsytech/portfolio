@@ -33,7 +33,7 @@ button:first-child {
 }
 
 button + button {
-    margin-left: 10px;
+    margin-left: 8px;
 }
 
 /* Button States */
@@ -110,7 +110,6 @@ button:hover {
 
     button + button {
         padding-top: 10px;
-        padding-right: 71px;
     }
 
     .social-links,
