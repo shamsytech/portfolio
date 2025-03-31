@@ -1,16 +1,11 @@
 <div class="navbar">
   <div class="toggle-buttons">
-    <button [class.active]="isWorkActive" (click)="toggleView('work')">Work</button>
-    <button [class.active]="!isWorkActive" (click)="toggleView('about')">About Me</button>
+    <button *ngFor="let btn of navbarData.navButtons" [class.active] = "btn.id === 'work' ? isWorkActive : !isWorkActive" (click)="toggleView(btn.id)">{{btn.text}}</button>
   </div>
   <div class="social-links">
-    <a href="https://www.linkedin.com/in/shams-h/" target="_blank">
-      LinkedIn
-      <img src="assets/images/linkedin-icon.png" alt="LinkedIn Icon">
-    </a>
-    <a href="https://github.com/shams-hasan" target="_blank">
-      GitHub
-      <img src="assets/images/github-icon.png" alt="GitHub Icon">
+    <a *ngFor="let social of navbarData.socials"[href]="social.link" target="_blank">
+      {{social.name}}
+      <img [src]="social.icon" alt="LinkedIn Icon">
     </a>
   </div>
 </div>

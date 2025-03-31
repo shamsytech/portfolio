@@ -8,10 +8,10 @@
     <div class="project-buttons">
       <a [href]="project.demoButton" class="demo-btn" target="_blank">
         View Demo
-        <img src="assets/images/Arrow--up-right.png" alt="arrow" class="arrow-icon">
+        <img [src]="projectData.arrowIcon" alt="arrow" class="arrow-icon">
       </a>
       <a [href]="project.githubButton" class="github-btn" target="_blank">View Code
-        <img src = "assets/images/github-icon.png" alt = "github">
+        <img [src]="projectData.githubIcon" alt="github">
       </a>
     </div>
     <img class="project-images" [src]="project.image" [alt]="project.title + ' project image'">
