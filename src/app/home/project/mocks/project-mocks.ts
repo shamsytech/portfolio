@@ -1,12 +1,15 @@
 // projects
 export const portfolioProjectMocks = {
+    arrowIcon: "assets/icons/other/Arrow--up-right.png",
+    githubIcon: 'assets/icons/socials/github-icon.png',
     projects: [{
         title: "Housing101",
         description: "A responsive housing app with dynamic showcases and search/signup functionality.",
         demoButton: "https://housing-dusky.vercel.app/",
         githubButton: "https://github.com/shams-hasan/housing-project",
+        githubIcon: 'assets/icons/socials/github-icon.png',
         image: "assets/images/housing-project-img.png",
-        badges: ["Angular", "TypeScript", "HTML", "SCSS", "Karma", "Jasmine", "CI/CD"]
+        badges: ["Angular", "TypeScript", "HTML/SCSS", "CI/CD", "Karma & Jasmine"]
     },
     {
         title: "Milky Way Wonders",
@@ -14,7 +17,7 @@ export const portfolioProjectMocks = {
         demoButton: "https://shams-hasan.github.io/nasa-project/",
         githubButton: "https://github.com/shams-hasan/nasa-project",
         image: "assets/images/nasa-project-img.png",
-        badges: ["HTML", "CSS", "JavaScript"]
+        badges: ["HTML/CSS", "JavaScript"]
     },
     {
         title: "Curious Souls",
@@ -22,8 +25,8 @@ export const portfolioProjectMocks = {
         demoButton: "https://curious-souls.vercel.app",
         githubButton: "https://github.com/shams-hasan/blog",
         image: "",
-        badges: ["Astro", "JavaScript", "HTML", "CSS", "Markdown", "Vercel"]
+        badges: ["Astro", "TypeScript", "JavaScript", "HTML/CSS", "Markdown", "Vercel"]
     }
-]
+    ]
 }
 
