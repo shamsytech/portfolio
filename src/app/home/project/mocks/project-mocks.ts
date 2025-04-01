@@ -8,7 +8,7 @@ export const portfolioProjectMocks = {
         demoButton: "https://housing-dusky.vercel.app/",
         githubButton: "https://github.com/shams-hasan/housing-project",
         githubIcon: 'assets/icons/socials/github-icon.png',
-        image: "assets/images/housing-project-img.png",
+        image: "assets/images/projects/housing-project-img.png",
         badges: ["Angular", "TypeScript", "HTML/SCSS", "CI/CD", "Karma & Jasmine"]
     },
     {
@@ -16,7 +16,7 @@ export const portfolioProjectMocks = {
         description: "An interactive space-themed web app, featuring NASA's daily captures since 1995.",
         demoButton: "https://shams-hasan.github.io/nasa-project/",
         githubButton: "https://github.com/shams-hasan/nasa-project",
-        image: "assets/images/nasa-project-img.png",
+        image: "assets/images/projects/nasa-project-img.png",
         badges: ["HTML/CSS", "JavaScript"]
     },
     {

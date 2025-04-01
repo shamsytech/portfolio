@@ -7,12 +7,24 @@
 
 .about-content {
     padding-left: 71px;
-    margin-right: 300px;
-}˝
+    margin-right: 200px;
+    flex-direction: column;
+    display: flex;
+}
+
+.about-header {
+    font-size: 24px;
+}
 
 .about-description {
-    line-height: 1.6;
+    line-height: 1.5;
     white-space: pre-line;
+    display: flex;
+    gap: 16px;
+    color: rgba(72, 72, 72, 1);
+}
+.about-description-column {
+    margin: 0;
 }
 
 .about-image {

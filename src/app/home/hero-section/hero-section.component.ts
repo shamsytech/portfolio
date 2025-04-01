@@ -9,7 +9,7 @@ const projectHeroMocks = {
     {
       name: 'GitHub', links: 'https://github.com/shams-hasan', icons: 'assets/icons/socials/github-icon.png'
     }],
-  image: "assets/images/IMG_7490-edited.jpg",
+  image: "assets/images/personal/IMG_7490-edited.jpg",
 }
  
 @Component({
