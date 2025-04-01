@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ProjectComponent } from './project.component';
-import { projectMocks } from './mocks/project-mocks';
+import { portfolioProjectMocks } from './mocks/project-mocks';
 
 describe('ProjectComponent', () => {
   let component: ProjectComponent;

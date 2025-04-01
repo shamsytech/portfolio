@@ -2,7 +2,10 @@
     <div class="about-section">
         <div class="about-content">
             <h3 class="about-header"> {{aboutMeData.heading}} </h3>
-            <p class="about-description" [innerHTML]="formattedDescription"></p>
+            <div class="about-description">
+                <div class="about-description-column" [innerHTML]="formattedDescriptionFirst"></div>
+                <div class="about-description-column" [innerHTML]="formattedDescriptionSecond"></div>
+            </div>
         </div>
         <img class="about-image" [src]="aboutMeData.image">
     </div>
