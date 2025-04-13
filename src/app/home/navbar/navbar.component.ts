@@ -44,12 +44,12 @@ export class NavbarComponent {
     document.getElementById('about-section')?.scrollIntoView({
       behavior: 'smooth',
       block: 'start'
-    });
+    }), 50;
   }
 
   private onWindowScroll() {
     const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-    if (scrollPosition < 100) { 
+    if (scrollPosition < 100) {
       this.activeView = 'work';
     }
   }
