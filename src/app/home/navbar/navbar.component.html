@@ -1,9 +1,10 @@
 <div class="navbar">
   <div class="toggle-buttons">
-    <button *ngFor="let btn of navbarData.navButtons" [class.active] = "btn.id === 'work' ? isWorkActive : !isWorkActive" (click)="toggleView(btn.id)">{{btn.text}}</button>
+    <button *ngFor="let btn of navbarData.navButtons" [class.active]="btn.id === activeView"
+      (click)="toggleView(btn.id)">{{btn.text}}</button>
   </div>
   <div class="social-links">
-    <a *ngFor="let social of navbarData.socials"[href]="social.link" target="_blank">
+    <a *ngFor="let social of navbarData.socials" [href]="social.link" target="_blank">
       {{social.name}}
       <img [src]="social.icon" alt="LinkedIn Icon">
     </a>

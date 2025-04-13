@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 const portfolioNavbarMocks = {
-navButtons: [
-  { id: 'work' as const, text: 'Work' },
-  { id: 'about' as const, text: 'About Me' }
-],
+  navButtons: [
+    { id: 'work' as const, text: 'Work' },
+    { id: 'about' as const, text: 'About Me' }
+  ],
   socials: [{
     link: 'https://www.linkedin.com/in/shams-h/',
     name: "LinkedIn",
@@ -17,7 +17,6 @@ navButtons: [
   }]
 }
 
-
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -25,13 +24,37 @@ navButtons: [
 })
 export class NavbarComponent {
   navbarData = portfolioNavbarMocks;
-  isWorkActive: boolean = true // Default to "Work" view
+  activeView: 'work' | 'about' = 'work';
+  private scrollListener: () => void;
 
-  // Toggles between "Work" and "About Me"
-  toggleView(view: 'work' | 'about') {
-    this.isWorkActive = (view === "work")
+  constructor() {
+    this.scrollListener = this.onWindowScroll.bind(this);
+    window.addEventListener('scroll', this.scrollListener);
   }
 
+  toggleView(view: 'work' | 'about') {
+    this.activeView = view;
 
+    if (view === 'about') {
+      setTimeout(() => this.scrollToAbout(), 50);
+    }
+  }
 
+  private scrollToAbout() {
+    document.getElementById('about-section')?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    }), 50;
+  }
+
+  private onWindowScroll() {
+    const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollPosition < 100) {
+      this.activeView = 'work';
+    }
+  }
+
+  ngOnDestroy() {
+    window.removeEventListener('scroll', this.scrollListener);
+  }
 }
