@@ -1,8 +1,45 @@
 .skills-container {
     padding-left: 71px;
+    padding-bottom: 40px;
+    max-width: 1200px;
 }
 
 .skills-header {
     font-size: 24px;
     font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.skill-badges {
+    padding-left: -1em;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 24px;
+}
+
+.skill-badge {
+    display: flex;
+    align-items: center;
+    padding: 8px 0px;
+    border-radius: 4px;
+}
+
+/* Karma/Jasmine and HTML/CSS icons */
+.skill-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    margin-right: 12px;
+}
+
+.skill-name {
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+    .skill-badges {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

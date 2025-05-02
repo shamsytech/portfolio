@@ -1,13 +1,9 @@
-<div class = "skills-container">
-<div class = "skills-section">
-    <div class = "skills-content">
-        <h3 class = "skills-header">{{skillsData.heading}}</h3>
-        <div class = "skill-badges">
-            
+<div class="skills-container">
+    <h3 class="skills-header">{{skillsData.heading}}</h3>
+    <div class="skill-badges">
+        <div *ngFor="let skill of skillsData.skills" class="skill-badge">
+            <img [src]="skill.image" alt="skill.name + ' icon" class="skill-icon">
+            <span class="skill-name">{{skill.name}}</span>
         </div>
     </div>
 </div>
-
-
-
-</div> 
