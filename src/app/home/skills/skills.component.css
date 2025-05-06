@@ -21,8 +21,9 @@
 .skill-badge {
     display: flex;
     align-items: center;
-    padding: 8px 0px;
+    /* padding: 8px 0px; */
     border-radius: 4px;
+    gap: 16px;
 }
 
 /* Karma/Jasmine and HTML/CSS icons */
