@@ -3,29 +3,28 @@ export const portfolioProjectMocks = {
     arrowIcon: "assets/icons/other/Arrow--up-right.png",
     githubIcon: 'assets/icons/socials/github-icon.png',
     projects: [{
-        title: "Housing101",
-        description: "A responsive housing app with dynamic showcases and search/signup functionality.",
-        demoButton: "https://housing-dusky.vercel.app/",
-        githubButton: "https://github.com/shams-hasan/housing-project",
-        githubIcon: 'assets/icons/socials/github-icon.png',
-        image: "assets/images/projects/housing-project-img.png",
-        badges: ["Angular", "TypeScript", "HTML/SCSS", "CI/CD", "Karma & Jasmine"]
+        title: "QuickServe POS - Where Orders Flow Smoothly",
+        description: "A full-stack POS system streamlining restaurant orders and inventory, built with JavaFX and MySQL for error-reduced service.",
+        demoButton: "https://youtu.be/gOUyipnmoRY",
+        githubButton: "https://github.com/RyanTren/SWE3313-Automation-Project",
+        image: "assets/images/projects/quickserve.mp4",
+        badges: ["Agile", "Java", "YAML", "Docker", "MySQL", "GitHub"]
     },
     {
-        title: "Milky Way Wonders",
-        description: "An interactive space-themed web app, featuring NASA's daily captures since 1995.",
+        title: "NASA Space Explorer – Where the Universe Shares Its Beauty  ",
+        description: "A full-stack web app showcasing NASA’s space images since 1995, shared with over 40 users to spark curiosity.",
         demoButton: "https://shams-hasan.github.io/nasa-project/",
         githubButton: "https://github.com/shams-hasan/nasa-project",
-        image: "assets/images/projects/nasa-project-img.png",
+        image: "assets/images/projects/nasa.mp4",
         badges: ["HTML/CSS", "JavaScript"]
     },
     {
-        title: "Curious Souls",
-        description: "A personal blog site for sharing thoughts and experiences cultivated by curiosity.",
-        demoButton: "https://curious-souls.vercel.app",
-        githubButton: "https://github.com/shams-hasan/blog",
-        image: "",
-        badges: ["Astro", "TypeScript", "JavaScript", "HTML/CSS", "Markdown", "Vercel"]
+        title: "Housing101 – Where Finding a Home Feels Effortless",
+        description: "A responsive housing app featuring dynamic property showcases, search functionality, and signup forms.",
+        demoButton: "https://housing-dusky.vercel.app/",
+        githubButton: "https://github.com/shams-hasan/housing-project",
+        image: "assets/images/projects/housing.mp4",
+        badges: ["Angular", "TypeScript", "HTML/SCSS", "CI/CD", "Karma & Jasmine"]
     }
     ]
 }
