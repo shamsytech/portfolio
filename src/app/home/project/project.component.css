@@ -1,18 +1,23 @@
 /* Project image(s) */
 .project-card .project-images {
-    width: 975px;
+    width: 1050px;
     height: 580px;
     border-radius: none;
     display: block;
     border-radius: 14px;
     margin: 110px auto auto auto;
+    object-fit: cover;
 }
+
 .project-card {
     padding-top: 40px;
 }
 .project-card p {
     color: #484848;
-    margin-bottom: 24px;
+}
+
+.project-images {
+    border: .75px solid black;
 }
 
 .arrow-icon {
