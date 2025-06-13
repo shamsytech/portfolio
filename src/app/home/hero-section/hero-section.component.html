@@ -13,12 +13,13 @@
 
         <div class="hero-social-links">
             <div *ngFor="let social of heroData.socials">
-                <a [href]="social.links" target="_blank">
+                <a [href]="social.link" target="_blank">
                     <span>{{ social.name }}</span>
-                    <img [src]="social.icons" alt="icon">
+                    <img [src]="social.icon" alt="icon">
                 </a>
             </div>
         </div>
+
 
         <div class="hero-image">
             <img [src]="heroData.image" alt="profile picture">

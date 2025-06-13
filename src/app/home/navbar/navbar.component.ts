@@ -7,12 +7,12 @@ const portfolioNavbarMocks = {
   ],
   socials: [{
     link: 'https://www.linkedin.com/in/shams-h/',
-    name: "LinkedIn",
+    name: "Linkedin",
     icon: 'assets/icons/socials/linkedin-icon.png'
   },
   {
     link: 'https://github.com/shams-hasan',
-    name: "GitHub",
+    name: "Github",
     icon: 'assets/icons/socials/github-icon.png'
   }]
 }

@@ -5,7 +5,8 @@ const portfolioAboutMeMocks = {
   description: `I grew up gaming on Wizard101 and later discovered programming through Python 🐍. I've loved computers since I was 8, and by 12, I was typing 100 words per minute 🖥️.
   
   In addition to coding, I'm passionate about language-learning 
-  and am trilingual in English, Arabic, and Spanish. I also enjoy weightlifting.`,
+  and am trilingual in English, Arabic, and Spanish. I also enjoy
+  weightlifting.`,
   image: "assets/images/personal/IMG_7825-3.jpeg"
 }
 
