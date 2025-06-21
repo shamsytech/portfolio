@@ -1,0 +1,23 @@
+<footer class="app-footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-socials">
+        <h3>Follow Me</h3>
+        <div class="social-icons" *ngFor="let social of footerData.socials">
+          <a [href]="social.link" target="_blank">
+            <span>{{ social.name }}</span>
+            <img [src]="social.icon" alt="TikTok image" />
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-images" *ngFor="let img of footerData.images">
+        <img [src]="img.image" [alt]="img.alt" />
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      &copy; {{ currentYear }} · Designed by Oscar Viquez, Developed by Shams Hasan · Built with Angular
+    </div>
+  </div>
+</footer>
