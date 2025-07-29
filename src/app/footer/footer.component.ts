@@ -1,18 +1,11 @@
 import { Component } from '@angular/core';
 const footerMocks = {
-  socials: [{
-    link: '',
-    name: "TikTok",
-    icon: ''
-  }],
-  images: [
+  heading: "Wizard101 Collection",
+  content: [
     {
-      image: "",
-      alt: "Wizard101 image 1"
-    },
-    {
-      image: "",
-      alt: "Wizard101 image 2"
+      image: "assets/images/footer/wizard101-selfie.png",
+      alt: "Wizard101 image",
+      video: "assets/images/footer/wizard101-meme.mp4",
     }
   ]
 }
