@@ -7,7 +7,7 @@ const portfolioAboutMeMocks = {
   In addition to coding, I'm passionate about language-learning 
   and am trilingual in English, Arabic, and Spanish. I also enjoy
   weightlifting.`,
-  image: "assets/images/personal/IMG_7825-3.jpeg"
+  image: "assets/images/personal/about-image.jpeg"
 }
 
 

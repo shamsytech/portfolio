@@ -4,8 +4,8 @@ const projectHeroMocks = {
   heading: "Shams Hasan",
   headingIcon: "assets/icons/other/sun.jpg",
   description: "Skilled software engineer living for the thrill of bringing ideas to life ✨.",
-  image: "assets/images/personal/beach.jpeg",
-    socials: [{
+  image: "assets/images/personal/hero-image.jpg",
+  socials: [{
     link: 'https://www.linkedin.com/in/shams-h/',
     name: "Linkedin",
     icon: 'assets/icons/socials/linkedin-icon.png'
