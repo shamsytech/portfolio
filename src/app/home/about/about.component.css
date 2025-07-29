@@ -1,6 +1,11 @@
-.about-container {
-    padding-bottom: 120px;
+#about-section {
+    scroll-margin-top: 75px !important;
 }
+
+.about-container {
+    margin-top: 80px;
+}
+
 .about-section {
     display: flex;
 }
@@ -23,6 +28,7 @@
     gap: 16px;
     color: rgba(72, 72, 72, 1);
 }
+
 .about-description-column {
     margin: 0;
 }
