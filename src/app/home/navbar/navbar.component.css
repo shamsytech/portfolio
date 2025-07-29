@@ -32,7 +32,7 @@ button:first-child {
     width: 90px;
 }
 
-button + button {
+button+button {
     margin-left: 6px;
 }
 
@@ -60,6 +60,8 @@ button:hover {
     display: flex;
     align-items: center;
     padding-right: 71px;
+    gap: 32px;
+    margin-right: 85px;
 }
 
 .social-links img {
@@ -67,6 +69,8 @@ button:hover {
     height: auto;
     margin-left: 10px;
     vertical-align: middle;
+    padding-bottom: 3px;
+    margin-left: 10px;
 }
 
 .social-links a {
@@ -75,7 +79,7 @@ button:hover {
     text-decoration: none;
 }
 
-.social-links a + a {
+.social-links a+a {
     margin-left: 32px;
     padding-right: 71px;
 }
@@ -108,12 +112,11 @@ button:hover {
         text-align: center;
     }
 
-    button + button {
+    button+button {
         padding-top: 10px;
     }
 
-    .social-links,
-    .social-links a {
+    .social-links {
         display: none;
     }
 }
