@@ -12,12 +12,9 @@
 .project-card {
     padding-top: 40px;
 }
+
 .project-card p {
     color: #484848;
-}
-
-.project-images {
-    border: .75px solid black;
 }
 
 .arrow-icon {
@@ -49,12 +46,13 @@
     vertical-align: middle;
 }
 
-.github-btn > img {
+.github-btn>img {
     width: 16px;
     height: 16px;
     margin-left: 8px;
     margin-bottom: -2px;
 }
+
 div {
     margin-bottom: 22px;
 }
@@ -76,7 +74,8 @@ p,
     font-size: 14px;
     gap: 8px;
 }
-.project-badges + span {
+
+.project-badges+span {
     margin-top: 16px;
     margin-bottom: 16px;
     padding-left: 16px;
@@ -100,7 +99,7 @@ p,
     border-radius: 14px;
 }
 
-.project-buttons a + a {
+.project-buttons a+a {
     margin-right: 20px;
 }
 
