@@ -2,6 +2,7 @@
     padding-left: 71px;
     padding-bottom: 40px;
     max-width: 1200px;
+    padding-top: 20px;
 }
 
 .skills-header {
@@ -21,7 +22,6 @@
 .skill-badge {
     display: flex;
     align-items: center;
-    /* padding: 8px 0px; */
     border-radius: 4px;
     gap: 16px;
 }
