@@ -3,6 +3,7 @@
    ========================================================================== */
 .hero-container {
     background: linear-gradient(315deg, #f6be4f1a 0%, #3885ac1a 100%);
+
 }
 
 .hero-section {
@@ -10,7 +11,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px 71px;
+    padding-bottom: 50px;
 }
+
 
 /* ==========================================================================
    Hero Content
@@ -30,7 +33,7 @@
     width: 55px;
     margin-left: -35px;
     position: relative;
-    top: -1px;
+    top: -.5px;
     transform: rotate(13deg);
 }
 
