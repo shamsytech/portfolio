@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 const projectHeroMocks = {
   heading: "Shams Hasan",
-  headingIcon: "assets/icons/other/sun.jpg",
+  headingIcon: "assets/icons/brand/sun.png",
   description: "Skilled software engineer living for the thrill of bringing ideas to life ✨.",
   image: "assets/images/personal/hero-image.jpg",
   socials: [{
