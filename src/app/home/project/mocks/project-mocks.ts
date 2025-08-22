@@ -1,6 +1,6 @@
 // projects
 export const portfolioProjectMocks = {
-    arrowIcon: "assets/icons/other/Arrow--up-right.png",
+    arrowIcon: "assets/icons/ui/Arrow--up-right.png",
     githubIcon: 'assets/icons/socials/github-icon.png',
     projects: [{
         title: "QuickServe POS - Where Orders Flow Smoothly",
