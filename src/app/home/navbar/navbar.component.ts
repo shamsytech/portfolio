@@ -11,7 +11,7 @@ const portfolioNavbarMocks = {
     icon: 'assets/icons/socials/linkedin-icon.png'
   },
   {
-    link: 'https://github.com/shams-hasan',
+    link: 'https://github.com/shamsytech',
     name: "Github",
     icon: 'assets/icons/socials/github-icon.png'
   }]
