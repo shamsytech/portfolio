@@ -3,6 +3,7 @@
 This is the codebase for my personal portfolio website, built with **Angular** for a clean, component-driven architecture.
 
 🎨 **Original Design**: [Oscar Hernandez](https://github.com/OscarViquez)
+
 💻 **Development**: [Shams Hasan](https://github.com/shamsytech)
 
 This project was a collaboration — Oscar created the visual design and overall aesthetic, and I handled all frontend development, component implementation, and content integration.
