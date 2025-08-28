@@ -2,7 +2,7 @@
 
 This is the codebase for my personal portfolio website, built with **Angular** for a clean, component-driven architecture.
 
-🎨 **Original Design**: [Oscar Hernandez](https://github.com/OscarViquez)  
+🎨 **Original Design**: [Oscar Hernandez](https://github.com/OscarViquez)
 💻 **Development**: [Shams Hasan](https://github.com/shamsytech)
 
 This project was a collaboration — Oscar created the visual design and overall aesthetic, and I handled all frontend development, component implementation, and content integration.
@@ -12,8 +12,9 @@ This project was a collaboration — Oscar created the visual design and overall
 I translated the design into a structured, maintainable Angular application with reusable components and responsive navigation. I also took creative ownership of specific sections:
 
 ### ✨ Wizard101 Collection (Footer)
-- Implemented this personal touch
-- Built with semantic HTML and minimal CSS
+A personal, nostalgic touch inspired by the game _Wizard101_
+- Built using Angular and TypeScript for dynamic data binding  
+- Semantic HTML and minimal CSS for clean, efficient styling
 
 ### 🔗 Navigation & View Toggling
 - Developed the **navbar** with links to "Work" and "About Me"
