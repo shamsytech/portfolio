@@ -20,7 +20,7 @@ export const portfolioProjectMocks = {
     },
     {
         title: "My Mom’s Recipe – A Bilingual Dessert Tradition",
-        description: "A responsive recipe site for a beloved Middle Eastern jelly and custard dessert, featuring full Arabic translation using JavaScript.",
+        description: "A responsive recipe site for a beloved Middle Eastern jelly and custard dessert, featuring full Arabic translation.",
         demoButton: "https://shamsytech.github.io/dessert-recipe/",
         githubButton: "https://github.com/shamsytech/dessert-recipe",
         image: "assets/videos/projects/dessert.mp4",
