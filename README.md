@@ -32,6 +32,7 @@ I translated the design into a structured, maintainable Angular application with
 ## 🚀 Built With
 
 - **Angular 16** (with CLI 16.2.16)
+- **TypeScript** – Core language for components and logic
 - CSS (desktop-first layout; mobile improvements coming soon)
 - Semantic, accessible HTML
 - No external UI libraries or frameworks
